@@ -1,0 +1,32 @@
+{
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "400",
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 4,
+    "editor.cursorBlinking": "solid",
+    "workbench.iconTheme": "vscode-great-icons",
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "terminal.external.osxExec": "iTerm.app",
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "stylelint.enable": true,
+    "files.associations": {
+        "*.css": "postcss"
+      },
+    "workbench.colorCustomizations": {
+        "editorWarning.foreground": "#ea00ff",
+        "editorInfo.foreground": "#00f",
+        "gitDecoration.modifiedResourceForeground": "#2AFFDF",
+        "gitDecoration.untrackedResourceForeground": "#FF9D00"
+    },
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true
+}
