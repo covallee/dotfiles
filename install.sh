@@ -170,9 +170,6 @@ echo "Starting brew app install..."
 # Don’t show the preferences window on next start
 # defaults write com.irradiatedsoftware.SizeUp ShowPrefsOnNextStart -bool false
 
-### Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 ### Developer Tools
 brew cask install iterm2
 
@@ -216,7 +213,6 @@ brew cask install ImageOptim  # for optimizing images
 
 
 ### Productivity
-brew cask install wavebox
 brew cask install google-chrome
 brew cask install firefox
 brew cask install alfred
@@ -224,6 +220,7 @@ brew cask install dropbox
 brew cask install tunnelblick
 brew cask install cyberduck
 brew cask install appcleaner
+brew cask install soundflower
 
 brew cask install keycastr  # show key presses on screen (for gifs & screencasts)
 brew cask install caffeine  # keep computer from sleeping
@@ -268,6 +265,7 @@ brew tap caskroom/fonts
 ### programming fonts
 brew cask install font-fira-mono-for-powerline
 brew cask install font-fira-code
+brew cask install font-inconsolata
 
 ### SourceCodePro + Powerline + Awesome Regular (for powerlevel 9k terminal icons)
 cd ~/Library/Fonts && { curl -O 'https://github.com/Falkor/dotfiles/blob/master/fonts/SourceCodePro+Powerline+Awesome+Regular.ttf?raw=true' ; cd -; }
@@ -509,6 +507,8 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 # ./makesymlinks.sh
 # upgrade_oh_my_zsh
 
+### Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 echo ""
 cecho "Done!" $cyan
